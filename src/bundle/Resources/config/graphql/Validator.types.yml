@@ -1,0 +1,8 @@
+FieldValidator:
+    type: object
+    config:
+        fields:
+            identifier:
+                type: String
+            value:
+                type: String

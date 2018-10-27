@@ -18,4 +18,4 @@ FormFieldProperties:
             name:
                 type: String
             validators:
-                type: "[Validator]"
+                type: "[FieldValidator]"
