@@ -1,0 +1,20 @@
+FormFieldTypeValue:
+    type: object
+    config:
+        fields:
+            _properties:
+                type: FormFieldTypeValueProperties
+                resolve: "@=value"
+            fields:
+                type: "[FormField]"
+
+FormFieldTypeValueProperties:
+    type: object
+    config:
+        fields:
+            name:
+                type: String
+            identifier:
+                type: String
+            displayValue:
+                type: String

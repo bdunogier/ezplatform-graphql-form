@@ -15,9 +15,9 @@
         "bdunogier/ezplatform-graphql-bundle": "^0.3@dev"
     },
     "autoload": {
-        "psr-4": [
+        "psr-4": {
             "BD\\EzPlatformFormGraphQLBundle\\": "src/bundle",
             "BD\\EzPlatformFormGraphQL\\": "src/lib"
-        ]
+        }
     }
 }

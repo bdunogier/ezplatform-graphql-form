@@ -1,0 +1,21 @@
+FormField:
+    type: object
+    config:
+        fields:
+            _properties:
+                type: FormFieldProperties
+                resolve: "@=value"
+            # fields specific to the Form Field are defined by inheriting objects
+
+FormFieldProperties:
+    type: object
+    config:
+        fields:
+            id:
+                type: String
+            identifier:
+                type: String
+            name:
+                type: String
+            validators:
+                type: "[Validator]"

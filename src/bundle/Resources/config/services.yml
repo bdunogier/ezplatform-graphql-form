@@ -1,1 +1,17 @@
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    BD\EzPlatformFormGraphQL\GraphQL\FormFieldValueBuilder:
+        tags:
+            - { name: ezplatform_graphql.field_value_builder, type: 'ezform'}
+
+    BD\EzPlatformFormGraphQL\GraphQL\FormResolver:
+        tags:
+            #- { name: overblog_graphql.resolver, alias: "PageBlockAttributeType", method: "resolvePageBlockAttributeType" }
+
+    BD\EzPlatformFormGraphQL\GraphQL\FormSchemaBuilder:
+        tags:
+            - {name: ezplatform_graphql.schema_builder}
