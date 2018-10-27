@@ -1,5 +1,5 @@
 {
-    "name": "bdunogier/ezplatform-form-graphql",
+    "name": "bdunogier/ezplatform-graphql-form",
     "description": "GraphQL integration of the ezplatform form builder",
     "type": "ezplatform-bundle",
     "license": "GPL-2.0",
@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "BD\\EzPlatformFormGraphQLBundle\\": "src/bundle",
-            "BD\\EzPlatformFormGraphQL\\": "src/lib"
+            "BD\\EzPlatformGraphQLFormBundle\\": "src/bundle",
+            "BD\\EzPlatformGraphQLForm\\": "src/lib"
         }
     }
 }

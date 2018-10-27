@@ -1,5 +1,5 @@
 <?php
-namespace BD\EzPlatformFormGraphQL\GraphQL;
+namespace BD\EzPlatformGraphQLForm\GraphQL;
 
 use BD\EzPlatformGraphQLBundle\DomainContent\FieldValueBuilder\FieldValueBuilder;
 use BD\EzPlatformGraphQLBundle\DomainContent\NameHelper;

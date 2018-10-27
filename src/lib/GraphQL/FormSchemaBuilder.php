@@ -1,5 +1,5 @@
 <?php
-namespace BD\EzPlatformFormGraphQL\GraphQL;
+namespace BD\EzPlatformGraphQLForm\GraphQL;
 
 use BD\EzPlatformGraphQLBundle\Schema\SchemaBuilder;
 use EzSystems\EzPlatformPageFieldType\FieldType\Page\Block\Definition\BlockAttributeDefinition;

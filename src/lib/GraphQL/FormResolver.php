@@ -1,5 +1,5 @@
 <?php
-namespace BD\EzPlatformFormGraphQL\GraphQL;
+namespace BD\EzPlatformGraphQLForm\GraphQL;
 
 use ArrayObject;
 use EzSystems\EzPlatformPageFieldType\FieldType\LandingPage\Model\Attribute as PageAttribute;
