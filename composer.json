@@ -1,0 +1,23 @@
+{
+    "name": "bdunogier/ezplatform-form-graphql",
+    "description": "GraphQL integration of the ezplatform form builder",
+    "type": "ezplatform-bundle",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Bertrand Dunogier",
+            "email": "bertrand.dunogier@ez.no"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ezsystems/ezplatform-form-builder": "^1.0",
+        "bdunogier/ezplatform-graphql-bundle": "^0.3@dev"
+    },
+    "autoload": {
+        "psr-4": [
+            "BD\\EzPlatformFormGraphQLBundle\\": "src/bundle",
+            "BD\\EzPlatformFormGraphQL\\": "src/lib"
+        ]
+    }
+}
